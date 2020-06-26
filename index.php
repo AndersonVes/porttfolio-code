@@ -133,8 +133,9 @@
                         <li>Experiência em diversos tipos de linguagens de programação. Como PHP, Java, JavaScript, Html e Css.</li>
                         <li>Líder de um projeto acadêmico convocado em Univeridades Federais.</li>
                         <li class="contato">
-                            <a href="https://www.linkedin.com/in/anderson-vesg/" title="site para empresa"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://api.whatsapp.com/send?phone=5519989457064&text=Ol%C3%A1%20Anderson!%20Quero%20um%20site%20de%20tirar%20o%20f%C3%B4lego!" title="criar um site para empresa"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://github.com/Vesguerber" title="site para empresa" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/anderson-vesg/" title="site para empresa" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=5519989457064&text=Ol%C3%A1%20Anderson!%20Quero%20um%20site%20de%20tirar%20o%20f%C3%B4lego!" title="criar um site para empresa" target="_blank"><i class="fab fa-whatsapp"></i></a>
                         </li>
                     </ul>
                 </div>
