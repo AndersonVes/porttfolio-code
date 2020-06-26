@@ -1,0 +1,861 @@
+* {
+    max-width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+     font-family: Raleway, sans-serif;
+    font-weight: normal;
+     src: url('fontes/Raleway-Regular.ttf');
+}
+
+@font-face {
+     font-family: Raleway, sans-serif;
+    font-weight: bold;
+     src: url('fontes/Raleway-Bold.ttf');
+}
+
+@font-face {
+     font-family: Raleway, sans-serif;
+    font-weight: light;
+     src: url('fontes/Raleway-Light.ttf');
+}
+
+.menu-topo .logo a img {
+    width: 100px;
+}
+
+.box-1-total {
+    width: 100%;
+    background: url(img/fototopo.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.box-1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-topo .logo {
+    width: 50%;
+}
+
+.menu-topo .menu-itens {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu-topo .menu-itens a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 16px;
+    transition: 0.7s;
+}
+
+.box-1 .content h2 {
+    background: white;
+    width: min-content;
+    padding: 5px 12px;
+    color: #ad0898;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.box-1 .content {
+    padding: 90px 0;
+    width: 50%;
+}
+
+.box-1 .content h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 5px;
+    margin-top: 26px;
+}
+
+.box-1 .content p {
+    margin: 0;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.box-1 .content p b {
+    color: yellow;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-topo .menu-itens a:hover {
+    color: yellow;
+}
+
+.box-2-total {
+    width: 100%;
+}
+
+.box-2 {
+    margin: 0 auto;
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo .traco {
+    background: #b05eb0;
+    width: 350px;
+    height: 2px;
+}
+
+.titulo h2 {
+    font-size: 43px;
+    font-weight: normal;
+    color: #4d294d;
+}
+
+.box-2 .site .seo {
+    font-size: 130px;
+    font-weight: bold;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    background: linear-gradient(75deg, #b05eb0, black);
+    width: 300px;
+    justify-content: center;
+    border-radius: 60px 0 60px 0;
+    height: 210px;
+}
+
+.box-2 .site .seo img {
+    height: 100px;
+}
+
+.box-2 .site {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-2 .site .site-div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.box-2 .site .site-div {
+    width: 50%;
+}
+
+.box-2 .site-div h2 {
+    color: #460046;
+    width: 100%;
+}
+
+.box-2 .site-div p {
+    font-size: 18px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.box-2 .site-div p b {
+    color: #7d437d;
+}
+
+.box-2 .site .site-div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.box-2 .site .site-div:last-child a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background: #512b51;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.box-2 .site .site-div:last-child a:last-child {
+    background: #156d0a;
+}
+
+.box-2 .site .site-div:last-child a:last-child:hover {
+    background: #158807;
+}
+
+.box-2 .site .site-div:last-child a:hover {
+    background: #6f386f;
+    transition: .3s;
+    text-shadow: 2px 2px 1px #333;
+}
+
+.box-3-total {
+    width: 100%;
+}
+
+.box-3 {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.box-4-total {
+    width: 100%;
+}
+
+.box-4 {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.box-3-total {
+    background: #6d005f;
+}
+
+.box-3 .titulo .traco {
+    background: white !important;
+}
+
+.box-3 .titulo h2 {
+    color: white !important;
+}
+
+.box-3 .div-box3-1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.box-3 .div-box3-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.box-3 .div-box3-2 .div-box3-2-1 {
+    width: 50%;
+}
+
+.box-3 .div-box3-2 .div-box3-2-2 {
+    width: 50%;
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3 .div-box3-2 .div-box3-2-2 img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 60px 0 60px 0;
+    box-shadow: 9px 5px 0px #472b47;
+}
+
+.box-3 .div-box3-2 .div-box3-2-1 p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.box-3 .link a {
+    display: flex;
+    justify-content: center;
+}
+
+.box-3 .link a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #6d005f;
+    background: #ffffff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 24px;
+    /* width: 265px; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.box-3 .link a:hover {
+    background: #ffe000;
+    transition: .4s;
+}
+
+.box-3 .link {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.box-3 .div-box3-2 .div-box3-2-2 span {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+}
+
+.box-4 .content .foto img {
+    height: 600px;
+}
+
+.box-4 .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-4 .content .foto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-4 .content .lista {
+    width: 50%;
+}
+
+.box-5 .titulo .traco {
+    background: white !important;
+}
+
+.box-5 .titulo h2 {
+    color: white !important;
+}
+
+.box-5-total {
+    background: #842ff2;
+    margin-top: -2px;
+    z-index: 9999999999999999999999999;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.box-5 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box-5 h2.content {
+    color: white;
+    font-size: 24px;
+    margin-left: 70px;
+    text-align: center;
+    margin: 8px auto;
+}
+
+form {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+input[type="text"] {
+    width: 110%;
+    border: navajowhite;
+    box-shadow: 9px 5px 0px #472b47;
+    height: 40px;
+    margin: 8px 0;
+    font-size: 23px;
+    outline: 0;
+    padding: 0 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px 8px;
+    font-size: 22px;
+    box-shadow: 9px 5px 0px #472b47;
+    resize: none;
+    margin: 8px 0;
+    outline: 0;
+    height: 200px;
+}
+
+input[type="submit"] {
+    width: 460px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 9px;
+    outline: 0;
+    margin: 8px 0;
+    font-size: 22px;
+    background: #512b51;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.social a {
+    font-size: 24px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 20px;
+    /* width: 430px; */
+    font-weight: bold;
+    color: white;
+}
+
+.social a i {
+    margin-right: 20px;
+}
+
+.social a.email {
+    background: #2f6bf2;
+}
+
+.social a.whats {
+    background: #00b945;
+}
+
+.social a i {
+    font-weight: normal !important;
+}
+
+.social a.email b {
+    font-weight: normal;
+}
+
+input[type="submit"]:hover {
+    transition: .4s;
+    background: #780a8c;
+    color: #ffffff;
+}
+
+.social a:hover {
+    transition: .3s;
+}
+
+a.email:hover {
+    background: #4c83ff;
+}
+
+a.whats:hover {
+    background: #25d366;
+}
+
+.box-4 .titulo {
+    position: relative;
+}
+
+.unicamp {
+    position: absolute;
+    right: 64px;
+    border-radius: 0px 0px 10px 10px;
+    top: 0;
+    box-shadow: 3px 3px 3px #333;
+    z-index: 9999999999999999;
+    background: white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.unicamp img {
+    width: 100%;
+}
+
+.box-4 .content .lista ul li {
+    list-style: none;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.box-4 .content .lista ul li.nome {
+    font-weight: bold;
+    color: #852ef2;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.box-4 .content .lista ul li.contato a {
+    border: 2px solid #672c67;
+    color: #672c67;
+    font-size: 30px;
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.box-4 .content .lista ul li.contato {
+    display: flex;
+}
+
+.box-4 .content .lista ul li.contato a:hover {
+    background: #eee;
+    transition: .3s;
+}
+
+.box-4 .content .lista ul {
+    margin: 0;
+}
+
+.box-4 .content .lista ul li.contato a:hover i {
+    color: #7308ff;
+}
+
+.simbolo-rep i.fas.fa-mobile-alt {
+    right: 0;
+    font-size: 360px;
+    color: #eee;
+    text-shadow: 4px 4px 0px #472b47;
+    bottom: 0;
+}
+
+.simbolo-rep .simbolo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simbolo-rep i.fas.fa-signal {
+    font-size: 110px;
+    position: absolute;
+    color: #cfd444;
+    text-shadow: 4px 4px 0px #472b47;
+}
+
+.box-3 .div-box3-2 .div-box3-2-1 h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.box-3 .div-box3-2 .div-box3-2-1 u {
+    color: yellow;
+    text-decoration: none;
+}
+
+div#collapseTrabalhos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+div#collapseTrabalhos a {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-decoration: none;
+    border: 4px solid #156d0a;
+    border-radius: 25px;
+    background: white;
+    min-height: 340px;
+}
+
+div#collapseTrabalhos a p {color: #666;font-size: 20px;border-top: 2px solid #666;padding-top: 5px;margin-top: 10px;margin-bottom: 0px;}
+
+div#collapseTrabalhos a h3 {font-weight: bold;color: #ffffff;text-align: center;font-size: 22px;background: #156d0a;width: 100%;border-radius: 20px 20px 0px 0;padding: 5px;}
+
+div#collapseTrabalhos a img {
+    margin: 20px 0;
+}
+
+div#collapseTrabalhos a:hover {
+    border: 4px solid #4e9851;
+}
+
+div#collapseTrabalhos a:hover h3 {
+    background: #4e9851;
+    text-shadow: 3px 3px 3px #333;
+}
+
+@media only screen and (max-width:1240px) {
+
+    .menu-topo {
+        padding: 20px 20px;
+    }
+
+    .menu-topo .logo {
+        width: fit-content;
+    }
+
+    .menu-topo .menu-itens {
+        width: auto;
+    }
+
+    .box-1 .content h1,
+    .box-1 .content p {
+        padding: 0px 20px;
+    }
+
+    .box-1 .content h2 {
+        margin-left: 20px;
+    }
+
+    .box-3 .div-box3-2 {
+        justify-content: center;
+    }
+
+    .box-3 .div-box3-2 .div-box3-2-1 {
+
+        padding: 0 20px;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+    .box-4 .content {
+        flex-wrap: wrap;
+    }
+
+    .box-4 .content .foto {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .box-4 .content .lista {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .box-4 .content .lista ul {
+        padding: 0 40px;
+    }
+
+    .titulo .traco {
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+
+    form {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin: 8px 20px;
+    }
+
+    textarea {
+        width: 100%;
+        margin: 8px 20px;
+    }
+    
+    input[type="submit"] {
+    margin: 8px 20px;
+}
+
+}
+
+@media only screen and (max-width:900px) {
+    .box-1-total {
+        background: #A53492;
+    }
+
+    .box-1 .content {
+        width: 100%;
+    }
+
+    .titulo h2 {
+        font-size: 36px;
+    }
+
+    .titulo .traco {
+        width: 200px;
+    }
+
+    .box-2 .site {
+        flex-wrap: wrap;
+    }
+
+    .box-2 .site .site-div {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .box-2 .site .site-div:last-child {
+        justify-content: center;
+    }
+
+    .box-3 .div-box3-2 .div-box3-2-1 {
+        width: 100%;
+    }
+
+    .box-3 .div-box3-2 .div-box3-2-2 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .social {
+        flex-wrap: wrap;
+    }
+
+    .social a {
+        margin: 10px 10px;
+    }
+
+    .box-2 .site .seo {
+        margin-top: -40px;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    .titulo .traco {
+        width: 100px;
+    }
+
+    .box-4 .content .foto img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4 .content .foto {
+        padding: 0 120px;
+    }
+    
+    .unicamp {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:715px) {
+
+    .menu-topo .menu-itens {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .menu-topo {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width:650px) {
+    .box-4 .content .foto {
+        padding: 0 60px;
+    }
+
+    .menu-topo .menu-itens {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu-topo .menu-itens a {
+        width: 49%;
+        margin: 3px 0;
+        text-align: center;
+        padding: 10px 0;
+        background: #520f4754;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    .social a {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+
+    .box-4 .content .lista ul li {
+        font-size: 18px;
+    }
+
+    .box-1 .content h1 {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .titulo .traco {
+        display: none;
+    }
+    
+    .box-4 .content .foto {
+    padding: 0 30px;
+}
+
+}
+
+@media only screen and (max-width:400px) {
+    
+    textarea {
+    font-size: 20px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+}
+    
+}
+
+@media only screen and (max-width:380px) {
+    .menu-topo .menu-itens a {
+        font-size: 15px;
+    }
+
+    .box-1 .content h1 {
+        font-size: 26px;
+    }
+
+    .box-2 .site .site-div:first-child {
+        padding: 0;
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .box-3 .link a {
+        padding: 5px 0;
+    }
+    
+    .box-5 h2.content {
+    font-size: 20px;
+}
+}
