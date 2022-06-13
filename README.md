@@ -1,2 +1,4 @@
 # portfolio-code
- O código fonte do meu portfólio pessoal (www.andersonvgb.com).
+The source code of my old portfolio (2020)
+
+Yeah, it's all in portuguese
